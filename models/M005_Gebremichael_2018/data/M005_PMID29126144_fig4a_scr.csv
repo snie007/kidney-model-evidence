@@ -1,0 +1,3 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date
+2.925,2.408,days,fold_increase,29126144,Fig4,Palmans_sCr_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+5.717,1.503,days,fold_increase,29126144,Fig4,Palmans_sCr_dose2.5mgkg,automated_PIL_numpy,2026-06-25

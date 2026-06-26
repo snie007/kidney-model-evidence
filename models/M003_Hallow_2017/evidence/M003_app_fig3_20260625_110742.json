@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-06-25T11:07:42.682195",
+  "git_commit": "HEAD",
+  "script": "replicate_app_fig3.py",
+  "figure": "Hallow & Gebremichael 2017 (PMID 28556624) Fig 3",
+  "paper_pmid": 28556624,
+  "digitized_csv": "/home/sneidere/kidney-mechanistic/resources/digitized/M003_PMID28556624_fig3.csv",
+  "digitized_data_available": true,
+  "patient_sp_n": {
+    "SS": 0.5,
+    "SR": 3.0
+  },
+  "na_intake_mmol_day": 160.0,
+  "drugs": [
+    "ACE inhibitor",
+    "Thiazide Diuretic",
+    "Calcium Channel Blocker"
+  ],
+  "model_outputs": {
+    "ACE inhibitor": {
+      "SS": {
+        "MAP_baseline": 99.48672646237782,
+        "MAP_final": 89.91309129607986,
+        "dMAP": -9.573635166297962,
+        "Pgc_baseline": 61.009139214256535,
+        "Pgc_final": 58.079672190986834,
+        "dPgc": -2.9294670232697015
+      },
+      "SR": {
+        "MAP_baseline": 95.404950744694,
+        "MAP_final": 86.83126901722359,
+        "dMAP": -8.573681727470415,
+        "Pgc_baseline": 58.9265374394019,
+        "Pgc_final": 56.4166955250158,
+        "dPgc": -2.509841914386101
+      }
+    },
+    "Thiazide Diuretic": {
+      "SS": {
+        "MAP_baseline": 99.48672646237782,
+        "MAP_final": 91.43393423225086,
+        "dMAP": -8.052792230126954,
+        "Pgc_baseline": 61.009139214256535,
+        "Pgc_final": 58.829512328259376,
+        "dPgc": -2.179626885997159
+      },
+      "SR": {
+        "MAP_baseline": 95.404950744694,
+        "MAP_final": 92.36518283207569,
+        "dMAP": -3.0397679126183164,
+        "Pgc_baseline": 58.9265374394019,
+        "Pgc_final": 59.28588058043687,
+        "dPgc": 0.35934314103496945
+      }
+    },
+    "Calcium Channel Blocker": {
+      "SS": {
+        "MAP_baseline": 99.48672646237782,
+        "MAP_final": 86.85690834186694,
+        "dMAP": -12.629818120510876,
+        "Pgc_baseline": 61.009139214256535,
+        "Pgc_final": 61.00562532519566,
+        "dPgc": -0.0035138890608763518
+      },
+      "SR": {
+        "MAP_baseline": 95.404950744694,
+        "MAP_final": 83.57071568583984,
+        "dMAP": -11.834235058854162,
+        "Pgc_baseline": 58.9265374394019,
+        "Pgc_final": 58.92688939616679,
+        "dPgc": 0.0003519567648950783
+      }
+    }
+  },
+  "output_figure": "/home/sneidere/kidney-mechanistic/figures/replication/M003_app_fig3.png",
+  "status": "PASS"
+}

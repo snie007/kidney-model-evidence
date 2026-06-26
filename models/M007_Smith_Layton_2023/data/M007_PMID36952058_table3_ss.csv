@@ -1,0 +1,23 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date,notes
+AGT_circ,575965,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint (published paper paywalled); matches MATLAB code
+AngI_circ,65.3,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_circ,43.4,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint; published paper reports 14 fmol/mL (different params)
+AT1R_AngII_memb_circ,21679,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+Ang17_circ,5.25,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+PRC,4.33,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_Isf_Gl,40.9,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AT1R_AngII_memb_Gl,262.4,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AT1R_AngII_cell_Gl,2154,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_cell_Gl,243.4,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_Isf_Pt,189,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AT1R_AngII_memb_Pt,88.6,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AT1R_AngII_cell_Pt,57.2,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_cell_Pt,6.60,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_Fl_Tb,757,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AT1R_AngII_memb_Tb,26.9,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AT1R_AngII_cell_Tb,75.1,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_cell_Tb,8.67,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_Pv,79.1,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AT1R_AngII_memb_Pv,36.7,variable_name,fmol_per_mL,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngI_T,191,variable_name,fmol_per_g_kidney,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint
+AngII_T,145,variable_name,fmol_per_g_kidney,36952058,Table_III,preprint_SS_Table3,manual_from_preprint_bioRxiv2021,2026-06-25,bioRxiv preprint

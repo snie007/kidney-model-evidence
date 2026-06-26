@@ -1,0 +1,4 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date,notes
+100.0,207.54,mmHg,nl_per_min,38966231,Fig3A,Takenaka1994_Furosemide,computed_from_MATLAB_Myo_TGF_model_curves_20231001.mat,2026-06-25,"Q_blood = Q_plasma/(1-Ht), Ht=0.4; Q_plasma from R model at equilibrium D_AA (7.74, 7.15, 6.94 um). TGF removed."
+125.0,235.63,mmHg,nl_per_min,38966231,Fig3A,Takenaka1994_Furosemide,computed_from_MATLAB_Myo_TGF_model_curves_20231001.mat,2026-06-25,"Q_blood = Q_plasma/(1-Ht), Ht=0.4; Q_plasma from R model at equilibrium D_AA (7.74, 7.15, 6.94 um). TGF removed."
+150.0,269.52,mmHg,nl_per_min,38966231,Fig3A,Takenaka1994_Furosemide,computed_from_MATLAB_Myo_TGF_model_curves_20231001.mat,2026-06-25,"Q_blood = Q_plasma/(1-Ht), Ht=0.4; Q_plasma from R model at equilibrium D_AA (7.74, 7.15, 6.94 um). TGF removed."

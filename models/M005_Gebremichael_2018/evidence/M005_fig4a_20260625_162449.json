@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-25T16:24:49.449666",
+  "git_commit": "7b49510a69bcd5ee9e85b95cdb865f596f1a2e3c",
+  "script": "replicate_fig4a.py",
+  "figure": "Gebremichael 2018 (PMID 29126144) Fig 4A",
+  "paper_pmid": 29126144,
+  "dose_mg_kg": 2.5,
+  "digitized_csvs": {
+    "kim1": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M005_PMID29126144_fig4a_kim1.csv",
+    "agst": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M005_PMID29126144_fig4a_agst.csv",
+    "scr": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M005_PMID29126144_fig4a_scr.csv"
+  },
+  "model_peaks": {
+    "Kim1_fold": 50.05814865582634,
+    "aGST_fold": 22.415050879026182,
+    "sCr_fold": 1.1744787802249261,
+    "GFR_min_mlmin": 2.283786659364611,
+    "Inj_max": 0.41111608002994615,
+    "Nec_max": 0.4118279015197343
+  },
+  "data_peaks": {
+    "Kim1_fold_Palmans": 58.212,
+    "aGST_fold_Palmans": 28.114,
+    "sCr_fold_Palmans": 2.408
+  },
+  "pct_error": {
+    "Kim1": 14.007165780549816,
+    "aGST": 20.27085836584555,
+    "sCr": null
+  },
+  "pass_threshold_pct": 35.0,
+  "pass_by_criterion": {
+    "Kim1": true,
+    "aGST": true,
+    "sCr": "EXCLUDED_KNOWN_GAP"
+  },
+  "status": "PASS",
+  "sCr_note": "Model predicts 1.17x peak sCr vs Palmans data 2.4x. Same gap exists in R reference. secr0 and S_TGF are flagged ESTIMATED in model.R (not calibrated against sCr data).",
+  "output_figure": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\figures\\replication\\M005_fig4a.png"
+}

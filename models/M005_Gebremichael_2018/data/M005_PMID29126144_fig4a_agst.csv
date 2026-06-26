@@ -1,0 +1,8 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date
+0.063,4.181,days,fold_increase,29126144,Fig4,Palmans_aGST_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+1.568,18.925,days,fold_increase,29126144,Fig4,Palmans_aGST_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+2.521,28.114,days,fold_increase,29126144,Fig4,Palmans_aGST_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+5.018,2.882,days,fold_increase,29126144,Fig4,Palmans_aGST_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+9.378,2.711,days,fold_increase,29126144,Fig4,Palmans_aGST_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+12.348,1.987,days,fold_increase,29126144,Fig4,Palmans_aGST_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+18.373,2.845,days,fold_increase,29126144,Fig4,Palmans_aGST_dose2.5mgkg,automated_PIL_numpy,2026-06-25

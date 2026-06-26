@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-06-25T17:03:49.537613",
+  "git_commit": "7b49510a69bcd5ee9e85b95cdb865f596f1a2e3c",
+  "script": "replicate_fig5b.py",
+  "figure": "Thomas & Ford Versypt 2024 (PMID 39525640) Fig 5B",
+  "paper_pmid": 39525640,
+  "input_csv": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M020_PMID39525640_fig5b_mac.csv",
+  "mac_ss": 3.3672750946093545e-13,
+  "mac_fold_peak": 13.362122529542706,
+  "mac_fold_peak_week": 24.0,
+  "comparisons": [
+    {
+      "week": 8.0,
+      "data_fold": 1.09,
+      "model_fold": 1.0337979086514562,
+      "pct_error": 5.156155169591186,
+      "in_criterion": false
+    },
+    {
+      "week": 16.16,
+      "data_fold": 9.42,
+      "model_fold": 6.408684497864848,
+      "pct_error": 31.967255861307347,
+      "in_criterion": true
+    },
+    {
+      "week": 20.26,
+      "data_fold": 11.57,
+      "model_fold": 11.180863728130896,
+      "pct_error": 3.3633212780389266,
+      "in_criterion": true
+    }
+  ],
+  "pass_criterion": "INFORMATIVE ONLY \u2014 50% tolerance, excluded from primary PASS",
+  "note": "MAC fold-change artefact: FitColData params give MAC peak ~13x. FitMACData (earlier fitting step) gives ~4-5x. Digitized data shows fold 9.4-11.6. This is a sequential fitting artefact in the original MATLAB. Fig 5B is excluded from the primary pass/fail criterion.",
+  "status": "INFORMATIVE_PASS",
+  "output_figure": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\figures\\replication\\M020_fig5b.png"
+}

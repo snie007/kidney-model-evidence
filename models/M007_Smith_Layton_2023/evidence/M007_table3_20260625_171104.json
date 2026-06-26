@@ -1,0 +1,193 @@
+{
+  "timestamp": "2026-06-25T17:11:04.358102",
+  "git_commit": "7b49510a69bcd5ee9e85b95cdb865f596f1a2e3c",
+  "script": "replicate_table3.py",
+  "figure": "Smith & Layton 2023 (PMID 36952058) Table III",
+  "paper_pmid": 36952058,
+  "ref_source": "bioRxiv preprint doi:10.1101/2021.12.14.472639 Table III",
+  "input_csv": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M007_PMID36952058_table3_ss.csv",
+  "comparisons": [
+    {
+      "variable": "AGT_circ",
+      "ref": 575965.0,
+      "model": 575940.9215095068,
+      "pct_error": 0.004180547514733889,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngI_circ",
+      "ref": 65.3,
+      "model": 65.27724329250402,
+      "pct_error": 0.03484947549153484,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngII_circ",
+      "ref": 43.4,
+      "model": 43.37337612710757,
+      "pct_error": 0.06134532924522878,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AT1R_AngII_memb_circ",
+      "ref": 21679.0,
+      "model": 21678.927379017572,
+      "pct_error": 0.000334983082374218,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "Ang17_circ",
+      "ref": 5.25,
+      "model": 5.251069980163579,
+      "pct_error": 0.02038057454436103,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "PRC",
+      "ref": 4.33,
+      "model": 4.328148670480061,
+      "pct_error": 0.04275587805863085,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngII_Isf_Gl",
+      "ref": 40.9,
+      "model": 40.94945614315624,
+      "pct_error": 0.12091966541868385,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AT1R_AngII_memb_Gl",
+      "ref": 262.4,
+      "model": 262.3507209281106,
+      "pct_error": 0.018780134104181775,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AT1R_AngII_cell_Gl",
+      "ref": 2154.0,
+      "model": 2154.181108501682,
+      "pct_error": 0.008408008434635425,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngII_cell_Gl",
+      "ref": 243.4,
+      "model": 243.43119778390292,
+      "pct_error": 0.012817495440801631,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AngII_Isf_Pt",
+      "ref": 189.0,
+      "model": 189.33115772037115,
+      "pct_error": 0.17521572506410169,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AT1R_AngII_memb_Pt",
+      "ref": 88.6,
+      "model": 88.62618117552402,
+      "pct_error": 0.029549859507934775,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AT1R_AngII_cell_Pt",
+      "ref": 57.2,
+      "model": 57.242790678314876,
+      "pct_error": 0.07480887817285457,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngII_cell_Pt",
+      "ref": 6.6,
+      "model": 6.601166438025699,
+      "pct_error": 0.01767330341969261,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AngII_Fl_Tb",
+      "ref": 757.0,
+      "model": 757.343697470628,
+      "pct_error": 0.04540257207766768,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AT1R_AngII_memb_Tb",
+      "ref": 26.9,
+      "model": 26.917558061633027,
+      "pct_error": 0.0652716045837496,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AT1R_AngII_cell_Tb",
+      "ref": 75.1,
+      "model": 75.15538670399955,
+      "pct_error": 0.07375060452671035,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngII_cell_Tb",
+      "ref": 8.67,
+      "model": 8.665277472547004,
+      "pct_error": 0.05446975147630982,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AngII_Pv",
+      "ref": 79.1,
+      "model": 79.10376628896437,
+      "pct_error": 0.0047614272621634085,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "variable": "AT1R_AngII_memb_Pv",
+      "ref": 36.7,
+      "model": 36.652529979092485,
+      "pct_error": 0.12934610601503557,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngI_T",
+      "ref": 191.0,
+      "model": 191.4271144848602,
+      "pct_error": 0.2236201491414648,
+      "in_pass_criterion": false,
+      "pass": null
+    },
+    {
+      "variable": "AngII_T",
+      "ref": 145.0,
+      "model": 144.93885882350543,
+      "pct_error": 0.04216632861694679,
+      "in_pass_criterion": true,
+      "pass": true
+    }
+  ],
+  "n_pass": 9.0,
+  "n_fail": 0.0,
+  "pass_criterion": "AngII in all compartments within 1% of preprint Table III",
+  "note": "Published paper (PMID 36952058) reports AngII_circ=14 fmol/mL with a re-fitted parameter set. The MATLAB code (and Python port) use preprint parameters giving AngII_circ=43.4 fmol/mL. This replication validates the Python port against the preprint Table III (which matches MATLAB output). The preprint PDF is at resources/papers/S010_Smith_Layton_2023_intrarenal_RAS_preprint.pdf.",
+  "status": "PASS",
+  "output_figure": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\figures\\replication\\M007_table3.png"
+}

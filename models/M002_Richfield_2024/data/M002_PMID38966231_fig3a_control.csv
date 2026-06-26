@@ -1,0 +1,4 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date,notes
+100.0,167.06,mmHg,nl_per_min,38966231,Fig3A,Takenaka1994_Control,computed_from_MATLAB_Myo_TGF_model_curves_20231001.mat,2026-06-25,"Q_blood = Q_plasma/(1-Ht), Ht=0.4; Q_plasma from R autoregulation model at equilibrium D_AA (7.00, 6.19, 5.73 um)."
+125.0,195.57,mmHg,nl_per_min,38966231,Fig3A,Takenaka1994_Control,computed_from_MATLAB_Myo_TGF_model_curves_20231001.mat,2026-06-25,"Q_blood = Q_plasma/(1-Ht), Ht=0.4; Q_plasma from R autoregulation model at equilibrium D_AA (7.00, 6.19, 5.73 um)."
+150.0,221.14,mmHg,nl_per_min,38966231,Fig3A,Takenaka1994_Control,computed_from_MATLAB_Myo_TGF_model_curves_20231001.mat,2026-06-25,"Q_blood = Q_plasma/(1-Ht), Ht=0.4; Q_plasma from R autoregulation model at equilibrium D_AA (7.00, 6.19, 5.73 um)."

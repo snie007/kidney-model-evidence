@@ -1,0 +1,7 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date,notes
+0.7248,10.1397,hours,ug_per_g,11219699,Fig2B_IN,IN_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=80.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+0.9069,13.0181,hours,ug_per_g,11219699,Fig2B_IN,IN_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=80.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+6.1141,13.9179,hours,ug_per_g,11219699,Fig2B_IN,IN_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=80.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+15.1531,11.9290,hours,ug_per_g,11219699,Fig2B_IN,IN_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=80.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+23.6992,12.7574,hours,ug_per_g,11219699,Fig2B_IN,IN_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=80.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+72.2616,8.0442,hours,ug_per_g,11219699,Fig2B_IN,IN_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=80.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat

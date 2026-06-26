@@ -1,0 +1,5 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date
+5.448,16.251,days,fold_increase,29126144,Fig4,Palmans_B_Kim1_dose1.0mgkg,automated_PIL_numpy,2026-06-25
+6.287,19.276,days,fold_increase,29126144,Fig4,Palmans_B_Kim1_dose1.0mgkg,automated_PIL_numpy,2026-06-25
+7.557,18.011,days,fold_increase,29126144,Fig4,Palmans_B_Kim1_dose1.0mgkg,automated_PIL_numpy,2026-06-25
+10.015,14.241,days,fold_increase,29126144,Fig4,Palmans_B_Kim1_dose1.0mgkg,automated_PIL_numpy,2026-06-25

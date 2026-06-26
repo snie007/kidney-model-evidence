@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-25T16:34:48.548554",
+  "git_commit": "7b49510a69bcd5ee9e85b95cdb865f596f1a2e3c",
+  "script": "replicate_fig6.py",
+  "figure": "Xu et al. 2025 (PMID 40099641) Fig 6",
+  "paper_pmid": 40099641,
+  "comparison_type": "model_only_curve_shape",
+  "note": "Fig 6 in the paper shows model-only curves (no experimental data). Fig 3B (radius vs Strahler order) is the measurement comparison but requires VTK reconstruction data \u2014 PENDING. This script validates single-nephron quantitative outputs (Table 4 ranges) and qualitative autoregulation behaviour.",
+  "reference_at_100mmHg": {
+    "r_AA_um": {
+      "value": 9.842542217701885,
+      "lo": 8.0,
+      "hi": 18.0,
+      "pass": true
+    },
+    "SNGFR_nl_min": {
+      "value": 39.8897254066353,
+      "lo": 25.0,
+      "hi": 50.0,
+      "pass": 1.0
+    },
+    "P_GC_mmHg": {
+      "value": 57.99999999999999,
+      "lo": 45.0,
+      "hi": 60.0,
+      "pass": true
+    },
+    "Cs_md_mmol_l": {
+      "value": 45.265924148834394,
+      "lo": 10.0,
+      "hi": 50.0,
+      "pass": 1.0
+    },
+    "filtration_fraction": {
+      "value": 0.34093782398833583,
+      "lo": 0.1,
+      "hi": 0.4,
+      "pass": 1.0
+    }
+  },
+  "r_at_80mmHg": 12.631364149877061,
+  "r_at_120mmHg": 7.966166415534153,
+  "pass_by_criterion": {
+    "table4_targets_at_100mmHg": true,
+    "vasoconstriction_r80_gt_r120": true
+  },
+  "status": "PASS",
+  "output_figure": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\figures\\replication\\M008_fig6.png"
+}

@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-06-25T16:24:52.254141",
+  "git_commit": "7b49510a69bcd5ee9e85b95cdb865f596f1a2e3c",
+  "script": "replicate_fig4b.py",
+  "figure": "Gebremichael 2018 (PMID 29126144) Fig 4B",
+  "paper_pmid": 29126144,
+  "dose_mg_kg": 1.0,
+  "digitized_csvs": {
+    "kim1": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M005_PMID29126144_fig4b_kim1.csv",
+    "agst": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M005_PMID29126144_fig4b_agst.csv",
+    "scr": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M005_PMID29126144_fig4b_scr.csv"
+  },
+  "model_peaks": {
+    "Kim1_fold": 11.456522247507834,
+    "aGST_fold": 4.983046751091291,
+    "sCr_fold": 1.0484566216046765,
+    "GFR_min_mlmin": 2.5361011511451617,
+    "Inj_max": 0.15810758175611445,
+    "Nec_max": 0.07659705290560176
+  },
+  "data_peaks": {
+    "Kim1_fold_Palmans": 19.276,
+    "aGST_fold_Palmans": 3.939
+  },
+  "pct_error": {
+    "Kim1": 40.56587337877239,
+    "aGST": 26.50537575758546,
+    "sCr": null
+  },
+  "pass_threshold_pct": 35.0,
+  "pass_by_criterion": {
+    "Kim1": false,
+    "aGST": true,
+    "sCr": "EXCLUDED_KNOWN_GAP"
+  },
+  "status": "FAIL",
+  "output_figure": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\figures\\replication\\M005_fig4b.png"
+}

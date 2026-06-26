@@ -1,0 +1,4 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date
+8.000,1.090,weeks,fold_change,39525640,Fig5B,Thomas2024_MAC_DKD,automated_PIL_numpy_column_profile,2026-06-25
+16.160,9.420,weeks,fold_change,39525640,Fig5B,Thomas2024_MAC_DKD,automated_PIL_numpy_column_profile,2026-06-25
+20.260,11.570,weeks,fold_change,39525640,Fig5B,Thomas2024_MAC_DKD,automated_PIL_numpy_column_profile,2026-06-25

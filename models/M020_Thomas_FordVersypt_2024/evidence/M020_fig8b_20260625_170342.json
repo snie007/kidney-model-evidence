@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-06-25T17:03:42.400692",
+  "git_commit": "7b49510a69bcd5ee9e85b95cdb865f596f1a2e3c",
+  "script": "replicate_fig8b.py",
+  "figure": "Thomas & Ford Versypt 2024 (PMID 39525640) Fig 8B",
+  "paper_pmid": 39525640,
+  "input_csv": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\resources\\digitized\\M020_PMID39525640_fig8b_col.csv",
+  "col_ss": 2.9431936135876584,
+  "col_fold_wk24": 3.0087591095593527,
+  "comparisons": [
+    {
+      "week": 7.9,
+      "data_fold": 1.01,
+      "model_fold": 0.9999805637100021,
+      "pct_error": 0.9920233950492977,
+      "in_pass_criterion": false,
+      "pass": true
+    },
+    {
+      "week": 9.91,
+      "data_fold": 1.87,
+      "model_fold": 1.0031699489827184,
+      "pct_error": 46.354548182742334,
+      "in_pass_criterion": false,
+      "pass": true
+    },
+    {
+      "week": 15.94,
+      "data_fold": 2.03,
+      "model_fold": 1.4582412979418442,
+      "pct_error": 28.16545330335742,
+      "in_pass_criterion": true,
+      "pass": true
+    },
+    {
+      "week": 19.95,
+      "data_fold": 2.71,
+      "model_fold": 2.5486267193928045,
+      "pct_error": 5.95473360174153,
+      "in_pass_criterion": true,
+      "pass": true
+    }
+  ],
+  "pass_criterion": "model COL fold within 30% of digitized data (weeks>=14 only; early transition excluded)",
+  "status": "PASS",
+  "output_figure": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\figures\\replication\\M020_fig8b.png"
+}

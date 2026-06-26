@@ -1,0 +1,9 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date
+5.165,18.329,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+6.117,25.533,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+7.193,41.064,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+9.232,58.212,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+10.015,53.124,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+13.280,18.984,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+15.608,18.080,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25
+20.544,14.649,days,fold_increase,29126144,Fig4,Palmans_Kim1_dose2.5mgkg,automated_PIL_numpy,2026-06-25

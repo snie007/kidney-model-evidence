@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-06-25T16:35:48.490559",
+  "git_commit": "HEAD",
+  "script": "replicate_fig3a.py",
+  "figure": "Richfield 2024 (PMID 38966231) Figure 3A \u2014 Q_AA vs Pa",
+  "paper_pmid": 38966231,
+  "ref_source": "MATLAB Myo_TGF_model_curves_20231001.mat (Q_pred_cont); Q_blood = Q_plasma/(1-0.4)",
+  "input_csvs": [
+    "/home/sneidere/kidney-mechanistic/resources/digitized/M002_PMID38966231_fig3a_control.csv",
+    "/home/sneidere/kidney-mechanistic/resources/digitized/M002_PMID38966231_fig3a_furosemide.csv"
+  ],
+  "comparisons": [
+    {
+      "Pa_mmHg": 100.0,
+      "condition": "control",
+      "ref_Q_blood_nl_per_min": 167.06,
+      "model_Q_blood_nl_per_min": 169.35365338662788,
+      "pct_error": 1.3729518655739739,
+      "pass": true,
+      "note": "Python model uses fixed D_AA=7.0 um (Takenaka control at Pa=100)."
+    },
+    {
+      "Pa_mmHg": 125.0,
+      "condition": "control",
+      "ref_Q_blood_nl_per_min": 195.57,
+      "model_Q_blood_nl_per_min": null,
+      "pct_error": null,
+      "pass": null,
+      "note": "Requires R autoregulation loop (D_AA=6.19 um); not in Python scope."
+    },
+    {
+      "Pa_mmHg": 150.0,
+      "condition": "control",
+      "ref_Q_blood_nl_per_min": 221.14,
+      "model_Q_blood_nl_per_min": null,
+      "pct_error": null,
+      "pass": null,
+      "note": "Requires R autoregulation loop (D_AA=5.73 um); not in Python scope."
+    }
+  ],
+  "pass_criterion": "Pa=100 control Q_blood within 3% of MATLAB reference",
+  "n_validated": 1,
+  "n_not_in_scope": 5,
+  "status": "PASS",
+  "output_figure": "/home/sneidere/kidney-mechanistic/figures/replication/M002_fig3a.png",
+  "scope_note": "The Python port implements the glomerular surrogate at fixed D_AA=7.0 um. Validation of the full autoregulation pressure-flow curve (Pa=100-150 with varying D_AA from Takenaka 1994) requires the R autoregulation model (resources/code/autoreg_glommod/). Only the Pa=100 baseline (D_AA=7.0 um, control condition) is validated here."
+}

@@ -1,0 +1,10 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date,notes
+0.1860,4.2076,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+0.2066,25.2927,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+0.4167,9.1299,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+0.4340,3.5831,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+1.4491,4.0697,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+1.4509,7.3171,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+24.2063,1.5211,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+24.2093,2.0175,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat
+24.2197,6.9107,hours,ug_per_g,11219699,Fig2C_AD,AD_observed_total_radioactivity,automated_PIL_scipy_erosion_5x5_sz50,2026-06-26,Log-scale y-axis; x_left=339 x_right=1347 t_max=25.0h; y log(0.1..100) ug/g; 10 mg/kg iv bolus 250g rat

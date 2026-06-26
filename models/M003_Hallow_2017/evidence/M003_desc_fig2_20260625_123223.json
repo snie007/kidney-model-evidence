@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-25T12:32:23.170228",
+  "git_commit": "HEAD",
+  "script": "replicate_desc_fig2.py",
+  "figure": "Hallow 2017 (PMID 28548387) Fig 2",
+  "paper_pmid": 28548387,
+  "digitized_csv_a": "/home/sneidere/kidney-mechanistic/resources/digitized/M003_PMID28548387_fig2a.csv",
+  "digitized_csv_b": "/home/sneidere/kidney-mechanistic/resources/digitized/M003_PMID28548387_fig2b.csv",
+  "digitized_data_available": true,
+  "ki_co_values_simulated": [
+    300.0,
+    30.0,
+    3.0
+  ],
+  "model_outputs_final_nominal": {
+    "CO_L_min": 5.000167873765037,
+    "Na_conc_mEq_L": 140.04218894440828
+  },
+  "rmse_panel_a_na_conc_mEq_L": 0.8965535452670367,
+  "rmse_panel_b_co_L_min": 0.1939674631774223,
+  "output_figure": "/home/sneidere/kidney-mechanistic/figures/replication/M003_desc_fig2.png",
+  "status": "PASS"
+}
