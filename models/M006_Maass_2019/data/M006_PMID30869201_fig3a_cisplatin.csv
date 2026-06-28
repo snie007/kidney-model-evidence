@@ -1,0 +1,13 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date
+6.0,7.000,h,pg/mL,30869201,Fig3a_cisplatin_No_Dose,Cisplatin_No_Dose,visual_inspection_fallback,2026-06-28
+24.0,6.000,h,pg/mL,30869201,Fig3a_cisplatin_No_Dose,Cisplatin_No_Dose,visual_inspection_fallback,2026-06-28
+48.0,5.000,h,pg/mL,30869201,Fig3a_cisplatin_No_Dose,Cisplatin_No_Dose,visual_inspection_fallback,2026-06-28
+6.0,12.000,h,pg/mL,30869201,Fig3a_cisplatin_Low_Dose,Cisplatin_Low_Dose,visual_inspection_fallback,2026-06-28
+24.0,7.000,h,pg/mL,30869201,Fig3a_cisplatin_Low_Dose,Cisplatin_Low_Dose,visual_inspection_fallback,2026-06-28
+48.0,7.000,h,pg/mL,30869201,Fig3a_cisplatin_Low_Dose,Cisplatin_Low_Dose,visual_inspection_fallback,2026-06-28
+6.0,18.000,h,pg/mL,30869201,Fig3a_cisplatin_Medium_Dose,Cisplatin_Medium_Dose,visual_inspection_fallback,2026-06-28
+24.0,8.000,h,pg/mL,30869201,Fig3a_cisplatin_Medium_Dose,Cisplatin_Medium_Dose,visual_inspection_fallback,2026-06-28
+48.0,6.000,h,pg/mL,30869201,Fig3a_cisplatin_Medium_Dose,Cisplatin_Medium_Dose,visual_inspection_fallback,2026-06-28
+6.0,25.000,h,pg/mL,30869201,Fig3a_cisplatin_High_Dose,Cisplatin_High_Dose,visual_inspection_fallback,2026-06-28
+24.0,8.000,h,pg/mL,30869201,Fig3a_cisplatin_High_Dose,Cisplatin_High_Dose,visual_inspection_fallback,2026-06-28
+48.0,4.000,h,pg/mL,30869201,Fig3a_cisplatin_High_Dose,Cisplatin_High_Dose,visual_inspection_fallback,2026-06-28
