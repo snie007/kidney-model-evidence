@@ -1,6 +1,6 @@
 # Kidney Mechanistic Model Evidence Pack
 
-Python implementations of 7 published kidney mechanistic models with automated replication evidence. Each model directory contains: the Python ODE implementation, digitized reference data from the original paper, replication comparison figures, and timestamped JSON artifacts recording pass/fail outcomes.
+Python implementations of 8 published kidney mechanistic models with automated replication evidence. Each model directory contains: the Python ODE implementation, digitized reference data from the original paper, replication comparison figures, and timestamped JSON artifacts recording pass/fail outcomes.
 
 ## Model summary
 
@@ -9,8 +9,10 @@ Python implementations of 7 published kidney mechanistic models with automated r
 | M002 | Richfield et al. | 2024 | Multi-scale ODE | Glomerular autoregulation | Fig 3A | PASS |
 | M003 | Hallow & Gebremichael | 2017 | ODE QSP | Blood pressure / Na regulation | 6 figures | PASS |
 | M005 | Gebremichael et al. | 2018 | ODE QST | Cisplatin nephrotoxicity | Fig 4A–4B | PASS / INFORMATIVE |
+| M006 | Maass et al. | 2019 | ODE QSP | Kidney MPS cisplatin toxicity | Fig 5 criteria | INFORMATIVE_PASS |
 | M007 | Smith & Layton | 2023 | ODE | Intrarenal RAS | Table III | PASS |
 | M008 | Xu et al. | 2025 | ODE | Renal hemodynamics | Fig 6 | PASS |
+| M018 | Mahato et al. | 2018 | ODE QSP | Diabetic kidney disease | Fig 5 A–F | PASS |
 | M020 | Thomas & Ford Versypt | 2024 | ODE QSP | Macrophage/fibrosis DKD | Fig 5B, 8B | PASS / INFORMATIVE |
 | P2ASO001 | Peng et al. | 2001 | PBPK | ASO oligonucleotide distribution | Fig 2A–2C | INFORMATIVE_PASS |
 
@@ -37,6 +39,7 @@ python models/M005_Gebremichael_2018/replicate_fig4a.py
 python models/M005_Gebremichael_2018/replicate_fig4b.py
 python models/M007_Smith_Layton_2023/replicate_table3.py
 python models/M008_Xu_2025/replicate_fig6.py
+python models/M018_Mahato_2018/replicate_fig5.py
 python models/M020_Thomas_FordVersypt_2024/replicate_fig5b.py
 python models/M020_Thomas_FordVersypt_2024/replicate_fig8b.py
 python models/P2ASO001_Peng_2001/replicate_fig2.py
@@ -101,6 +104,14 @@ kidney-model-evidence/
     │   ├── replicate_fig8b.py
     │   ├── REPLICATION_LOG.md
     │   ├── data/           <- digitized CSVs
+    │   └── evidence/       <- PNGs + JSON artifacts
+    ├── M018_Mahato_2018/
+    │   ├── README.md
+    │   ├── model.py
+    │   ├── validate.py
+    │   ├── replicate_fig5.py
+    │   ├── REPLICATION_LOG.md
+    │   ├── data/           <- digitized CSVs (GFR + UAER from Fig 2B/2C)
     │   └── evidence/       <- PNGs + JSON artifacts
     └── P2ASO001_Peng_2001/
         ├── README.md

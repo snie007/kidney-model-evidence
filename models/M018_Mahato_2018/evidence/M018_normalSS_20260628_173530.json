@@ -1,0 +1,57 @@
+{
+  "model": "M018",
+  "paper": "Mahato et al. 2018, PMID 30564457",
+  "test": "normal_scenario_steady_state",
+  "timestamp": "2026-06-28T17:35:30",
+  "git_commit": "7b49510",
+  "model_file": "resources/python/M018_Mahato_2018/model.py",
+  "scenario": "normal",
+  "t_end_min": 500000,
+  "n_passes": 2,
+  "solver": "LSODA",
+  "rtol": 1e-5,
+  "atol": 1e-7,
+  "fixes_applied": [
+    {
+      "id": "Fix1_Pbowmans_clamp",
+      "description": "Physical clamp: P_bowmans >= Pc_pt + P_interstitial = 19 mmHg. Prevents spurious SNGFR=56.4 attractor from tubular compliance formula calibrated for human length scales."
+    },
+    {
+      "id": "Fix2_nom_cd_na_reab",
+      "description": "nom_cd_na_reabsorption computed including SGLT2-coupled Na reabsorption at normal BG. Value: 0.5680 (vs human M003: 0.634)."
+    },
+    {
+      "id": "Fix3_BG_normal_90",
+      "description": "blood_glucose_mg_dl('normal') changed from 120 to 90 mg/dL = BG_nom. Ensures BG_excess=0 for C57BL/6J lean control mice, stopping delta_Daa evolution that caused long-term (t=200000 min) SNGFR creep and Na balance collapse."
+    }
+  ],
+  "root_cause_of_long_term_divergence": "BG_normal=120 > BG_nom=90 produced BG_excess=30 mg/dL, driving d(delta_Daa)/dt=1.875e-6/min. Over 200,000 min, delta_Daa grew to ~0.19 (19% afferent dilation), increasing SNGFR from 31.8 to ~64 nL/min. This caused massive Na_excretion > Na_intake, charging the VP integral, and ultimately MAP -> -691,138 mmHg at t=200,000.",
+  "targets": {
+    "GFR_mL_min":   {"target_range": [0.29, 0.35], "description": "Table 2 Mahato 2018"},
+    "MAP_mmHg":     {"target_range": [90, 106],     "description": "Table 1 Mahato 2018"},
+    "Pgc_mmHg":     {"target_range": [34, 41],      "description": "Table 1 Mahato 2018"},
+    "Na_conc_mmol_L": {"target_range": [138, 142],  "description": "physiological normal"},
+    "delta_Daa":    {"target_range": [0, 0.01],     "description": "no injury in normal scenario"}
+  },
+  "ss_results": {
+    "GFR_mL_min":        0.3178,
+    "MAP_mmHg":          98.18,
+    "Pgc_mmHg":          37.48,
+    "SNGFR_nL_min":      31.78,
+    "blood_volume_L":    0.04560,
+    "Na_conc_mmol_L":    140.000,
+    "oncotic_mmHg":      10.330,
+    "delta_Daa":         0.0,
+    "serum_cr_mg_dL":    0.2038,
+    "dsodium_at_SS":     -2.655e-10,
+    "d_delta_Daa_at_SS": 0.0
+  },
+  "verdict": "PASS",
+  "notes": [
+    "run_to_ss completed in 0.7 s on cemrg001 (kidney env, LSODA rtol=1e-5/atol=1e-7)",
+    "Na_conc = 140.000 mmol/L at SS (VP integral fully equilibrated, no drift)",
+    "delta_Daa = 0 throughout (BG_excess = 0 in normal scenario)",
+    "dsodium at SS = -2.66e-10 mEq/min (numerical noise only, not physiology)",
+    "Oncotic pressure equilibrates from 10.17 (initial) to 10.33 mmHg (self-consistent with ppc=3.4, SNRBF=180 nL/min, FF=0.177)"
+  ]
+}

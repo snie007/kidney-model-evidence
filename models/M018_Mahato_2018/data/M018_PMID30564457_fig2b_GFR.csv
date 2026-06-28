@@ -1,0 +1,15 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date
+10.0,0.42,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+12.0,0.3,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+14.0,0.43,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+16.0,0.45,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+18.0,0.33,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+20.0,0.28,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+20.0,0.25,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+21.0,0.22,weeks,mL/min,30564457,fig2b,dbdb,visual_inspection_fallback,2026-06-28
+10.0,0.2,weeks,mL/min,30564457,fig2b,WT_or_dbm,visual_inspection_fallback,2026-06-28
+12.0,0.27,weeks,mL/min,30564457,fig2b,WT_or_dbm,visual_inspection_fallback,2026-06-28
+18.0,0.21,weeks,mL/min,30564457,fig2b,WT_or_dbm,visual_inspection_fallback,2026-06-28
+20.0,0.2,weeks,mL/min,30564457,fig2b,WT_or_dbm,visual_inspection_fallback,2026-06-28
+20.0,0.3,weeks,mL/min,30564457,fig2b,WT_or_dbm,visual_inspection_fallback,2026-06-28
+21.0,0.14,weeks,mL/min,30564457,fig2b,WT_or_dbm,visual_inspection_fallback,2026-06-28
