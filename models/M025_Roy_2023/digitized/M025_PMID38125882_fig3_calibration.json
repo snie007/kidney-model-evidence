@@ -1,0 +1,220 @@
+{
+  "date": "2026-06-30T09:01:57.250668",
+  "image": "/home/sneidere/kidney-mechanistic/M025_Roy_2023/M025_fig3.png",
+  "size": [
+    1600,
+    886
+  ],
+  "panel_info": {
+    "A": {
+      "px1": 0,
+      "py1": 0,
+      "px2": 800,
+      "py2": 443,
+      "x_left": 160,
+      "x_right": 777,
+      "d_min": 0.0,
+      "d_max": 25.0,
+      "var": "EPO",
+      "unit": "IU/L"
+    },
+    "B": {
+      "px1": 800,
+      "py1": 0,
+      "px2": 1600,
+      "py2": 443,
+      "x_left": 929,
+      "x_right": 1377,
+      "d_min": 6.0,
+      "d_max": 16.0,
+      "var": "Hb",
+      "unit": "g/dL"
+    },
+    "C": {
+      "px1": 0,
+      "py1": 443,
+      "px2": 800,
+      "py2": 886,
+      "x_left": 160,
+      "x_right": 620,
+      "d_min": 0.0,
+      "d_max": 0.14,
+      "var": "Retics",
+      "unit": "10^12/L"
+    },
+    "D": {
+      "px1": 800,
+      "py1": 443,
+      "px2": 1600,
+      "py2": 886,
+      "x_left": 905,
+      "x_right": 1334,
+      "d_min": 1.0,
+      "d_max": 7.0,
+      "var": "RBC",
+      "unit": "10^12/L"
+    }
+  },
+  "results": [
+    {
+      "panel": "A",
+      "var": "EPO",
+      "unit": "IU/L",
+      "stage": "Healthy",
+      "value": 6.989465153970826,
+      "n_pix": 88
+    },
+    {
+      "panel": "A",
+      "var": "EPO",
+      "unit": "IU/L",
+      "stage": "CKD1.5",
+      "value": 6.037277147487845,
+      "n_pix": 103
+    },
+    {
+      "panel": "A",
+      "var": "EPO",
+      "unit": "IU/L",
+      "stage": "CKD3",
+      "value": 5.551053484602917,
+      "n_pix": 110
+    },
+    {
+      "panel": "A",
+      "var": "EPO",
+      "unit": "IU/L",
+      "stage": "CKD4",
+      "value": 5.145867098865478,
+      "n_pix": 101
+    },
+    {
+      "panel": "A",
+      "var": "EPO",
+      "unit": "IU/L",
+      "stage": "CKD5",
+      "value": 4.011345218800648,
+      "n_pix": 115
+    },
+    {
+      "panel": "B",
+      "var": "Hb",
+      "unit": "g/dL",
+      "stage": "Healthy",
+      "value": 14.526785714285715,
+      "n_pix": 153
+    },
+    {
+      "panel": "B",
+      "var": "Hb",
+      "unit": "g/dL",
+      "stage": "CKD1.5",
+      "value": 13.1875,
+      "n_pix": 106
+    },
+    {
+      "panel": "B",
+      "var": "Hb",
+      "unit": "g/dL",
+      "stage": "CKD3",
+      "value": 11.9375,
+      "n_pix": 144
+    },
+    {
+      "panel": "B",
+      "var": "Hb",
+      "unit": "g/dL",
+      "stage": "CKD4",
+      "value": 8.96875,
+      "n_pix": 84
+    },
+    {
+      "panel": "B",
+      "var": "Hb",
+      "unit": "g/dL",
+      "stage": "CKD5",
+      "value": 8.5,
+      "n_pix": 83
+    },
+    {
+      "panel": "C",
+      "var": "Retics",
+      "unit": "10^12/L",
+      "stage": "Healthy",
+      "value": 0.05691304347826087,
+      "n_pix": 96
+    },
+    {
+      "panel": "C",
+      "var": "Retics",
+      "unit": "10^12/L",
+      "stage": "CKD1.5",
+      "value": 0.05782608695652174,
+      "n_pix": 100
+    },
+    {
+      "panel": "C",
+      "var": "Retics",
+      "unit": "10^12/L",
+      "stage": "CKD3",
+      "value": 0.06756521739130436,
+      "n_pix": 96
+    },
+    {
+      "panel": "C",
+      "var": "Retics",
+      "unit": "10^12/L",
+      "stage": "CKD4",
+      "value": 0.053260869565217396,
+      "n_pix": 104
+    },
+    {
+      "panel": "C",
+      "var": "Retics",
+      "unit": "10^12/L",
+      "stage": "CKD5",
+      "value": 0.07547826086956523,
+      "n_pix": 84
+    },
+    {
+      "panel": "D",
+      "var": "RBC",
+      "unit": "10^12/L",
+      "stage": "Healthy",
+      "value": 5.0,
+      "n_pix": 115
+    },
+    {
+      "panel": "D",
+      "var": "RBC",
+      "unit": "10^12/L",
+      "stage": "CKD1.5",
+      "value": 4.594405594405595,
+      "n_pix": 97
+    },
+    {
+      "panel": "D",
+      "var": "RBC",
+      "unit": "10^12/L",
+      "stage": "CKD3",
+      "value": 4.118881118881118,
+      "n_pix": 97
+    },
+    {
+      "panel": "D",
+      "var": "RBC",
+      "unit": "10^12/L",
+      "stage": "CKD4",
+      "value": 3.2797202797202796,
+      "n_pix": 149
+    },
+    {
+      "panel": "D",
+      "var": "RBC",
+      "unit": "10^12/L",
+      "stage": "CKD5",
+      "value": 3.0,
+      "n_pix": 181
+    }
+  ]
+}

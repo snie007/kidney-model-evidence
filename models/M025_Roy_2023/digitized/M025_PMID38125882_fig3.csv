@@ -1,0 +1,21 @@
+x,y,x_unit,y_unit,source_pmid,fig_ref,series,digitization_tool,date,n_pix
+Healthy,6.98947,CKD stage,IU/L,38125882,Fig3A,EPO,PIL_red_cluster_rightmost,2026-06-30,88
+CKD1.5,6.03728,CKD stage,IU/L,38125882,Fig3A,EPO,PIL_red_cluster_rightmost,2026-06-30,103
+CKD3,5.55105,CKD stage,IU/L,38125882,Fig3A,EPO,PIL_red_cluster_rightmost,2026-06-30,110
+CKD4,5.14587,CKD stage,IU/L,38125882,Fig3A,EPO,PIL_red_cluster_rightmost,2026-06-30,101
+CKD5,4.01135,CKD stage,IU/L,38125882,Fig3A,EPO,PIL_red_cluster_rightmost,2026-06-30,115
+Healthy,14.52679,CKD stage,g/dL,38125882,Fig3B,Hb,PIL_red_cluster_rightmost,2026-06-30,153
+CKD1.5,13.1875,CKD stage,g/dL,38125882,Fig3B,Hb,PIL_red_cluster_rightmost,2026-06-30,106
+CKD3,11.9375,CKD stage,g/dL,38125882,Fig3B,Hb,PIL_red_cluster_rightmost,2026-06-30,144
+CKD4,8.96875,CKD stage,g/dL,38125882,Fig3B,Hb,PIL_red_cluster_rightmost,2026-06-30,84
+CKD5,8.5,CKD stage,g/dL,38125882,Fig3B,Hb,PIL_red_cluster_rightmost,2026-06-30,83
+Healthy,0.05691,CKD stage,10^12/L,38125882,Fig3C,Retics,PIL_red_cluster_rightmost,2026-06-30,96
+CKD1.5,0.05783,CKD stage,10^12/L,38125882,Fig3C,Retics,PIL_red_cluster_rightmost,2026-06-30,100
+CKD3,0.06757,CKD stage,10^12/L,38125882,Fig3C,Retics,PIL_red_cluster_rightmost,2026-06-30,96
+CKD4,0.05326,CKD stage,10^12/L,38125882,Fig3C,Retics,PIL_red_cluster_rightmost,2026-06-30,104
+CKD5,0.07548,CKD stage,10^12/L,38125882,Fig3C,Retics,PIL_red_cluster_rightmost,2026-06-30,84
+Healthy,5.0,CKD stage,10^12/L,38125882,Fig3D,RBC,PIL_red_cluster_rightmost,2026-06-30,115
+CKD1.5,4.59441,CKD stage,10^12/L,38125882,Fig3D,RBC,PIL_red_cluster_rightmost,2026-06-30,97
+CKD3,4.11888,CKD stage,10^12/L,38125882,Fig3D,RBC,PIL_red_cluster_rightmost,2026-06-30,97
+CKD4,3.27972,CKD stage,10^12/L,38125882,Fig3D,RBC,PIL_red_cluster_rightmost,2026-06-30,149
+CKD5,3.0,CKD stage,10^12/L,38125882,Fig3D,RBC,PIL_red_cluster_rightmost,2026-06-30,181
