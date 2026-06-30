@@ -82,14 +82,25 @@ Nine flags documented in `model.py` docstring:
 | TGF iteration | Damped FP, alpha = 0.25, 50 iters max; brentq fallback |
 | Cardiovascular loop | brentq, xtol = 0.001 (Pma); brentq for Phi_co |
 
-**Note**: rtol = 1e-8 / atol = 1e-10 causes "Required step size less than spacing between numbers"
-near the slow sodium equilibrium (days 5–30). Not a model error — the solver step size drops
-below machine_eps × t near the converged state. rtol = 1e-6 / atol = 1e-8 avoids this.
+**Note on tolerances and spin-up duration**: 30-day spin-up with rtol = 1e-6, atol = 1e-8
+confirmed successful (2026-06-30; nfev = 263,965; 2936 s). Confirmed 5-day SS is adequate:
+
+| Quantity | Day 5 | Day 30 | Difference |
+|----------|-------|--------|------------|
+| Pma (mmHg) | 102.27 | 102.16 | 0.11 |
+| GFR (mL/min) | 81.74 | 81.7 | 0.04 |
+| Vecf (L) | 15.141 | 15.239 | 0.098 |
+| Na balance (meq/min) | 0.00072 | 0.00030 | — |
+
+nfev = 263,965 over 30 days (8799/day vs 1380 in 1-day test) because the solver takes many
+small steps tracking near-zero derivatives at SS. rtol = 1e-8 / atol = 1e-10 causes
+"Required step size less than spacing between numbers" near the slow Na equilibrium (days 6–30):
+step size drops below machine_eps × t. This is a solver precision issue, not a model error.
 
 ---
 
 ## Platform
 
 - Python 3.x, NumPy, SciPy
-- Local Windows 11 (spin-up 5 days = 70s; experiment 10 days = 61s)
+- Local Windows 11 (spin-up 5 days = 70s; experiment 10 days = 61s; 30-day SS confirmation = 2936s)
 - Git commit: 123bd7c476e2 (at time of artifact generation)
