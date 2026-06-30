@@ -1,0 +1,34 @@
+{
+  "timestamp": "20260630_104857",
+  "git_commit": "123bd7c476e2",
+  "model": "M011_Karaaslan_2014",
+  "figure": "fig2_BCV_panels",
+  "paper_pmid": "24285363",
+  "input_csv": null,
+  "status": "INFORMATIVE_PASS",
+  "criteria": {
+    "MAP_stable_near_100": true,
+    "RSNA_decreases_with_high_Na": true,
+    "intact_kidney_excretes_more_Na": true,
+    "sodium_balance_recovers": true,
+    "GFR_in_physiological_range": true
+  },
+  "rmse_map_mmhg": 5.962515912734733,
+  "rmse_ref": "physiological_target_100mmHg",
+  "model_outputs": {
+    "MAP_mean_mmHg": 105.74929053864344,
+    "MAP_min_mmHg": 102.26581628103817,
+    "MAP_max_mmHg": 107.22681228670473,
+    "RSNA_R_pct_loading": -8.355060988176625,
+    "Na_excretion_R_loading_meq_per_min": 0.6918754329369047,
+    "Na_excretion_L_loading_meq_per_min": 0.12725423630940472,
+    "Na_excretion_total_recovery_meq_per_min": 0.13412501683714598,
+    "GFR_R_mean_mL_per_min": 87.70428694242545
+  },
+  "solver": "Radau",
+  "rtol": 1e-06,
+  "atol": 1e-08,
+  "spin_up_days": 5,
+  "png_path": "C:\\Users\\sneidere\\Dropbox\\Projects\\2026\\kidney-mechanistic\\artifacts\\replication\\M011_fig2_20260630_104857.png",
+  "notes": "Paper PDF not accessible (paywall; not OA despite PMC listing). Validation against physiological targets and qualitative paper findings. Spin-up: 5 days at rtol=1e-6/atol=1e-8 (day-5 Na balance residual < 0.5%). FLAG-1: vasf coefficient corrected 11.312\u21921.1e-5. FLAG-2: autonomic block interpreted as epsilon_aum\u2248aauto. FLAG-3: water reab coefficient: K_wreab=0.659 derived from mass balance. FLAG-4: nu_md_sod denominator 1843\u21920.1843. FLAG-5: xi_ksod=1. FLAG-6: PB+Pgo=40mmHg, Kgcf=0.0126. FLAG-7: K_wreab=0.659 from water balance constraint. FLAG-9: TGF iteration uses damped FP (alpha=0.25) not naive substitution."
+}
