@@ -1,6 +1,6 @@
 # Kidney Mechanistic Model Evidence Pack
 
-Python implementations of 10 published kidney mechanistic models with automated replication evidence. Each model directory contains: the Python ODE implementation, digitized reference data from the original paper, replication comparison figures, and timestamped JSON artifacts recording pass/fail outcomes.
+Python implementations of 11 published kidney mechanistic models with automated replication evidence. Each model directory contains: the Python ODE implementation, digitized reference data from the original paper, replication comparison figures, and timestamped JSON artifacts recording pass/fail outcomes.
 
 ## Model summary
 
@@ -12,6 +12,7 @@ Python implementations of 10 published kidney mechanistic models with automated 
 | M006 | Maass et al. | 2019 | ODE QSP | Kidney MPS cisplatin toxicity | Fig 5 criteria | INFORMATIVE_PASS |
 | M007 | Smith & Layton | 2023 | ODE | Intrarenal RAS | Table III | PASS |
 | M008 | Xu et al. | 2025 | ODE | Renal hemodynamics | Fig 6 | PASS |
+| M011 | Karaaslan et al. | 2014 | ODE | Two-kidney RSNA blood pressure | Fig 2 (5/5 criteria) | INFORMATIVE_PASS |
 | M018 | Mahato et al. | 2018 | ODE QSP | Diabetic kidney disease | Fig 5 A–F | PASS |
 | M020 | Thomas & Ford Versypt | 2024 | ODE QSP | Macrophage/fibrosis DKD | Fig 5B, 8B | PASS / INFORMATIVE |
 | M025 | Roy et al. | 2023 | ODE QSP | HIF-EPO erythropoiesis / CKD anaemia | Fig 3 | PASS |
@@ -40,6 +41,7 @@ python models/M005_Gebremichael_2018/replicate_fig4a.py
 python models/M005_Gebremichael_2018/replicate_fig4b.py
 python models/M007_Smith_Layton_2023/replicate_table3.py
 python models/M008_Xu_2025/replicate_fig6.py
+python models/M011_Karaaslan_2014/replicate_fig2.py
 python models/M018_Mahato_2018/replicate_fig5.py
 python models/M025_Roy_2023/replicate_fig3.py
 python models/M020_Thomas_FordVersypt_2024/replicate_fig5b.py
